@@ -1,0 +1,68 @@
+.sendContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  width: 100%;
+  background-color: red;
+}
+
+.skjemaContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 800px;
+  gap: 100px;
+  background-color: green;
+}
+
+.elementContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 400px;
+}
+
+.knappStyling {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 400px !important;
+}
+
+.bildeContainer {
+  align-self: flex-end;
+}
+
+.suksessMeldingStyling {
+  margin-bottom: 32px;
+  width: 100%;
+}
+
+.searchableDropDown input {
+  width: 400px;
+  border-radius: 20px;
+}
+
+.text-input-container {
+  border-radius: 20px;
+}
+
+.row-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 18px;
+  width: 400px;
+  margin-bottom: 16px;
+}
+
+.datoContainer {
+  flex-grow: 1;
+}
+
+.ffe-form-label {
+  display: flex;
+  align-items: flex-start;
+}

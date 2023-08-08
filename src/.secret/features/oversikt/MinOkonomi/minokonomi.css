@@ -1,0 +1,72 @@
+.min-okonomi-komponent-riktig {
+  background-color: white;
+  border-radius: 16px;
+  margin-top: 100px;
+  box-shadow: 0 0.0625rem 0.25rem #e5dfdb;
+}
+
+.min-okonomi__title-riktig {
+  text-align: start;
+  padding: 16px;
+  margin: 0;
+}
+
+.progress-bar-riktig {
+  height: 9px;
+  margin: 0 16px;
+  border-radius: 10px;
+  background-image: linear-gradient(#4d689f, #4d689f),
+    linear-gradient(#dc8000, #dc8000), linear-gradient(#873953, #873953),
+    linear-gradient(#ee8d9c, #ee8d9c), linear-gradient(#f8b181, #f8b181);
+  background-size: 55% 100%, 75% 100%, 90% 100%, 95% 100%, 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.min-okonomi-list__container-riktig {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.min-okonomi-list-riktig {
+  border-bottom: #f3f2ef 1px solid;
+}
+
+.min-okonomi-list-riktig:last-child {
+  border: none;
+}
+
+.list-content__wrapper-riktig {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 75px;
+  padding: 0.625rem 1rem;
+  position: relative;
+}
+
+.content__ikon-riktig {
+  fill: #ffffff;
+  height: 25px;
+  margin-left: 7.5px;
+  position: absolute;
+}
+
+.content__description-riktig {
+  align-self: center;
+  margin: auto auto auto 12px;
+}
+
+.content__details-riktig {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.content__chevron-riktig {
+  height: 15px;
+  margin-left: 12px;
+  fill: #adadad;
+  transform: rotate(270deg);
+}

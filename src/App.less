@@ -1,0 +1,66 @@
+@import "@sb1/ffe-core/less/ffe";
+@import "@sb1/ffe-buttons/less/buttons";
+@import (inline) "@sb1/ffe-webfonts/sb1-fonts.css";
+@import "@sb1/ffe-cards/less/cards";
+@import "@sb1/ffe-account-selector-react/less/ffe-account-selector";
+@import "@sb1/ffe-datepicker/less/datepicker";
+@import "@sb1/ffe-searchable-dropdown-react/less/searchable-dropdown";
+@import "@sb1/ffe-form/less/form";
+@import "@sb1/ffe-grid/less/ffe-grid";
+@import "@sb1/ffe-header/less/ffe-header";
+@import "@sb1/ffe-message-box/less/ffe-message-box";
+@import "@sb1/ffe-spinner/less/spinner";
+@import "@sb1/ffe-tabs/less/tabs";
+@import "@sb1/ffe-chart-donut-react/less/ffe-chart-donut";
+
+.App {
+  background-color: @ffe-farge-sand-30;
+  min-height: 100vh;
+}
+
+.App-heading {
+  margin-top: @ffe-spacing-2xl;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+}
+
+.App-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  &:last-child {
+    margin-top: @ffe-spacing-lg;
+  }
+}
+
+.App-trist-mann {
+  right: 0;
+  position: absolute;
+}
+
+.logo {
+  margin-top: @ffe-spacing-lg;
+  width: 150px;
+}
+
+.Navbar {
+  text-align: center;
+  background-color: #fff;
+}
+
+.nav_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+// ---- ffe-overrides -----
+.ffe-image-card {
+  max-width: none;
+}
+
+.ffe-icon-card {
+  /*  width: 80%;
+    margin: 50px auto;*/
+}
